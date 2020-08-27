@@ -12,6 +12,14 @@
     <body>
         <div class="container">
             <h1>HELLO</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <button ui-sref="home">Home</button> <!-- ui-sref is a state reference, it's the ui router equivalent of ng-href or href in an html app -->
+                        <button ui-sref="about">About</button>
+                    </li>
+                </ul>
+            </nav>
             <ui-view></ui-view>
         </div>
     <script src="js/app.js"></script>
